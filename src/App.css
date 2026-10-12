@@ -1,0 +1,91 @@
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background-color: #f4f6f8;
+}
+
+.container {
+  width: 600px;
+  margin: 40px auto;
+  background-color: white;
+  padding: 30px;
+  border-radius: 12px;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+  text-align: center;
+  color: #333;
+  margin-bottom: 30px;
+}
+
+h2 {
+  color: #333;
+  margin-top: 25px;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+input,
+select {
+  padding: 12px;
+  font-size: 16px;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+}
+
+button {
+  padding: 12px;
+  border: none;
+  border-radius: 6px;
+  background-color: #4f46e5;
+  color: white;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #3730a3;
+}
+
+.analysis {
+  margin-bottom: 25px;
+}
+
+.analysis-item {
+  display: flex;
+  justify-content: space-between;
+  padding: 12px;
+  margin-top: 8px;
+  background-color: #f1f5f9;
+  border-radius: 6px;
+}
+
+.expense {
+  background-color: #f8f9fa;
+  border-left: 5px solid #4f46e5;
+  padding: 15px;
+  margin-top: 15px;
+  border-radius: 6px;
+}
+
+.expense h3 {
+  margin-top: 0;
+}
+
+.expense p {
+  margin: 6px 0;
+}
+
+.expense button {
+  background-color: #dc2626;
+  margin-top: 8px;
+}
+
+.expense button:hover {
+  background-color: #b91c1c;
+}
